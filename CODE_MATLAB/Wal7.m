@@ -18,7 +18,7 @@ W_7(t >= 3 & t < 4) = -1;    % Thay đổi giá trị thành -1 trong khoảng t
 figure;
 subplot(3,1,1);
 plot(t, W_7, 'LineWidth', 2);
-title('Hàm Walsh bậc 7 với các giá trị 1, -1, 1, -1, 1, -1, 1, -1');
+title('Hàm Walsh bậc 7 Wal(7,t)');
 xlabel('t');
 ylabel('W_7(t)');
 ylim([-2 2]);  % Đặt giới hạn trục tung từ -2 đến 2

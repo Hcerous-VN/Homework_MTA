@@ -18,7 +18,7 @@ W_5(t >= 3 & t < 4) = -1;    % Thay đổi giá trị thành -1 trong khoảng t
 figure;
 subplot(3,1,1);
 plot(t, W_5, 'LineWidth', 2);
-title('Hàm Walsh bậc 5 với các giá trị 1, -1, -1, 1, -1, 1, 1, -1');
+title('Hàm Walsh bậc 5 Wal(5,t)');
 xlabel('t');
 ylabel('W_5(t)');
 ylim([-2 2]);  % Đặt giới hạn trục tung từ -2 đến 2

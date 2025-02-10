@@ -14,7 +14,7 @@ W_3(t >= 2 & t < 4) = -1;    % Thay đổi giá trị thành -1 trong khoảng t
 figure;
 subplot(3,1,1);
 plot(t, W_3, 'LineWidth', 2);
-title('Hàm Walsh bậc 3 với 4 điểm 1, -1, 1, -1 trong miền thời gian từ -4 đến 4');
+title('Hàm Walsh bậc 3 Wal(3,t)');
 xlabel('t');
 ylabel('W_3(t)');
 ylim([-2 2]);  % Đặt giới hạn trục tung từ -2 đến 2
